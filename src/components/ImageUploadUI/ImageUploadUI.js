@@ -11,7 +11,7 @@ const ImageUploadUI = () => {
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
   const [liveLink, setLiveLink] = useState("");
-  const fileInputRef = useRef(null); // Create a ref for the file input
+  const fileInputRef = useRef(null);
 
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
@@ -39,8 +39,8 @@ const ImageUploadUI = () => {
 
       setLiveLink(response.data.liveUrl);
       setSuccess("Image uploaded successfully!");
-      setFile(null); // Clear the file state
-      fileInputRef.current.value = ""; // Reset the file input value
+      setFile(null);
+      fileInputRef.current.value = "";
     } catch (err) {
       setError("Image upload failed.");
     } finally {
@@ -61,7 +61,7 @@ const ImageUploadUI = () => {
         <Grid item xs={12}>
           <TextField
             type="file"
-            inputRef={fileInputRef} // Attach the ref here
+            inputRef={fileInputRef}
             onChange={handleFileChange}
             fullWidth
             variant="outlined"
@@ -93,7 +93,7 @@ const ImageUploadUI = () => {
             variant="contained"
             color="primary"
             onClick={handleUpload}
-            disabled={loading || !file}  // Disable button if loading or no file is selected
+            disabled={loading || !file}
             startIcon={!loading && <CloudUploadIcon />}
             fullWidth
           >

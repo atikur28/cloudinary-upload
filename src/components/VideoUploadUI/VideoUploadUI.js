@@ -113,7 +113,7 @@ const VideoUploadUI = () => {
         </Grid>
         <Grid item xs={12}>
           <TextField
-            id="video-file-input" // Set the ID for the input field
+            id="video-file-input"
             type="file"
             onChange={handleFileChange}
             fullWidth
