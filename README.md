@@ -8,7 +8,11 @@ This project is a **Image & Video Upload Platform** built using modern technolog
 
 - **Video Upload**: Users can upload video files (up to 30 MB).
 - **Image Upload**: Users can upload image files (up to 5 MB) alongside videos.
+<<<<<<< HEAD
 - **Media Metadata**: Add titles and descriptions for uploaded videos for better management and display.
+=======
+- **Media Metadata**: Add titles and descriptions for both uploaded videos and images for better management and display.
+>>>>>>> de12e71403e750a949c873f46cb29184660efa63
 - **Live Media URL**: After a successful upload, users can share both images and videos via generated live links.
 - **Error Handling**: Graceful error messages for invalid media formats, oversized files, and failed uploads.
 - **Responsive Design**: Fully responsive UI using Material UI and Tailwind CSS for seamless experiences on all devices.
@@ -26,7 +30,11 @@ This project is a **Image & Video Upload Platform** built using modern technolog
 ## 🎯 How It Works
 
 1. **Upload a Video**: Users can select a video file (under 30MB) and add a title and description.
+<<<<<<< HEAD
 2. **Upload an Image**: Users can select an image file (under 5MB).
+=======
+2. **Upload an Image**: Users can select an image file (under 5MB) and add a title and description.
+>>>>>>> de12e71403e750a949c873f46cb29184660efa63
 3. **Submit**: The platform uploads the video and image to Cloudinary and stores their metadata in the database via Prisma.
 4. **Get Shareable Links**: Once the uploads are complete, live links for both the images and videos are generated and displayed for users to share.
 
