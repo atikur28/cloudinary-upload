@@ -1,6 +1,6 @@
 # 📹 Video Upload Platform with Next.js
 
-[![Live Demo](https://cloudinary-upload-green.vercel.app/)](https://cloudinary-upload-green.vercel.app/)
+[Live Demo](https://cloudinary-upload-green.vercel.app/)
 
 This project is a **Video Upload Platform** built using modern technologies like **Next.js**, **Material UI (MUI)**, **Axios**, **Tailwind CSS**, **Prisma**, and **Cloudinary**. It enables users to upload videos, provide titles and descriptions, and obtain a live URL for sharing their videos.
 
